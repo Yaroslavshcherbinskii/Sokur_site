@@ -1,0 +1,68 @@
+body{
+background: #AEB6C7;
+}
+
+aside{
+float: left;
+background: #C7BFAE;
+width:27%;
+padding: 2.5%;
+height: 100vh;
+color: #fff;
+border-right: 6px solid #AEAFC7;
+}
+
+aside img{
+width: 70px;
+float: left;
+}
+aside .logo{
+font-size: 40px;
+margin-left: 10px;
+font-weigh: bold;
+position: relative;
+top: 0px;
+}
+aside h3{
+margin-top: 50px;
+font-size: 30px;
+}
+aside ul {
+list-style: none
+}
+
+aside ul li{
+    color: #2f271d;
+    display: block;
+    margin-top: 20px;
+    transition: transform .8s ease;
+}
+aside ul li:hover, aside ul a:hover{
+    color: #851919;
+    transform: scale (1.49);
+    text-decoration: none;
+
+}
+main .features{
+float: left;
+color: #fff;
+margin-top: 100px;
+text-align: center;
+width: 73%;
+}
+main .features h1{font-size: 50px;}
+main .features p{max-width: 500px; margin: 30px; auto}
+
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 35%;
+    text-align: left;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
